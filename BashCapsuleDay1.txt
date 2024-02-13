@@ -1,0 +1,3 @@
+ A shell program that interprets the commands you type in your terminal and passes them on to the os.
+ the purpose of shell is to make it more convenient for you to issue commands to your computer.
+bash-Bourne Again shell
