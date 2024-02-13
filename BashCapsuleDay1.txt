@@ -8,3 +8,4 @@ bash-Bourne Again shell
 #! --> shebang it tells your shell which interpreter we are going to use.
 #!/bin/bash
 mention  exit status code always
+give only 744 permission to every script
