@@ -1,2 +1,10 @@
 # to comment in a script
 # tar 
+bash interpreted by line by line
+ Five steps for bash scripting
+    Tokenization
+    Command Identification
+    Shell Expensions
+    Quote Removal
+    Redirection
+
