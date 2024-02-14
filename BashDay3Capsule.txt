@@ -1,0 +1,11 @@
+Quoting
+Quoting effect pretty much every part of how bash processes command lines.
+
+What is quoting
+  Quoting is used for remob=ving special characters meaning 
+Three types of quoting:
+  1) BackSlash (\) remove the special meaning 
+  2) SingleQuote ('') remove the special meaning place inside them
+  3) Double quotes (" ") remove the special meaning from every character except $ sign ,Backticks(``)
+Character has been quoted after removing special meaning and escaped.
+
