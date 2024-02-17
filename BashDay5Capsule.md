@@ -29,3 +29,5 @@ echo abc; echo 123
    3) Word Splitting
 
    4) Globbing
+---
+#### First thing expansions in earlier stages are perfomed first
