@@ -15,3 +15,17 @@ echo abc; echo 123
            if [[ 2 -gt 2]]; then
               echo 'hello world'
            fi
+## Expansions
+   once the shell has complete tokenization then it will perform shell expansions on the words in the command line.
+   there are four stages of shell expansion:
+   
+  1) Brace expansion
+   
+  2) - paramter expansion
+      - arithmatic expansion
+      - command expansion
+      - tilde expansion
+
+   3) Word Splitting
+
+   4) Globbing
