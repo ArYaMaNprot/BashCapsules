@@ -23,7 +23,7 @@ echo abc; echo 123
    
   2) - paramter expansion
       - arithmatic expansion
-      - command expansion
+      - command substitution
       - tilde expansion
 
    3) Word Splitting
@@ -31,3 +31,8 @@ echo abc; echo 123
    4) Globbing
 ---
 #### First thing expansions in earlier stages are perfomed first
+#### Second thing the expansions that are in same stages are given same priority and are simply performed in the order they found on the command line.
+echo $name -parameter expansion
+(1+3) brace expansion
+[1,10] arithmatic expansion
+
