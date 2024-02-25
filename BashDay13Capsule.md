@@ -20,6 +20,7 @@
          $1,$2,$3,$4,....$N
 
          if we gave file name as arguements to script it used as $@ it will treat them as single words by word splitting concept 
+         
           and if we want to remove word splitting used "$@" instead of $@
 
           
