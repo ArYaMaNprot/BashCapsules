@@ -1,0 +1,23 @@
+### First thing you need to know a chain of commands is created whn you put more one or more command together in a given command line
+    
+    List Operators
+      1). & is used for reunnig command asynchrounusly
+      
+      2). && is used for combination with another command if both commands are successful
+      
+      3). ; is used for running sequentially
+      
+      4). || is used for if first command fails then second command executes
+
+      echo 123 ; echo 567
+### Test 
+
+      Test command is a common which is used for comparing the diffrent pieces of information.
+
+      If a test is elevated to be true .then it will return an exit status of 0, 
+      
+      If a test is evaluated to false it will return an exit status of 1
+
+      syntax [ ]
+
+      there a space before opening the bracket and closing the bracket. Otherwise you will get syntax error.
