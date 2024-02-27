@@ -21,3 +21,23 @@
       syntax [ ]
 
       there a space before opening the bracket and closing the bracket. Otherwise you will get syntax error.
+
+[ 2 -eq 2 ]; echo $?
+
+[ 1 -ne 2 ] ;
+
+    -eq -Equal
+    -ne not equal
+    -gt greater than
+    -lt less than
+    -geq    greater than equal to
+    -leq    less than equal to
+    or you can use != it will automatically convert it to accordingly
+    to check if string is empty or not [ -z $c ] ; echo $? -z operator 
+    to check if not empty we use [ -n $c ]; echo $?
+
+    to check if a file exist or not we use [ -e today.txt ]
+    to check if for a directory or not [ -d today ]
+    to check for if given is a file is a regular file,word file,pdf file ,etc... [ -f today.txt ]
+    to check if a file readable we use [ -r today ] or to check for writable or not [ -w today ]
+    
