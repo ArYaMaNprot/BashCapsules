@@ -1,0 +1,11 @@
+ A shell program that interprets the commands you type in your terminal and passes them on to the os.
+ the purpose of shell is to make it more convenient for you to issue commands to your computer.
+bash-Bourne Again shell
+ Structure of script:
+  Begining
+  Middle
+  End
+#! --> shebang it tells your shell which interpreter we are going to use.
+#!/bin/bash
+mention  exit status code always
+give only 744 permission to every script
