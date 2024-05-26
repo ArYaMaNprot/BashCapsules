@@ -16,5 +16,7 @@ Operators -those tokens are defined as operators that contaains at least one unq
 Operators are also of two types 
 1) Control operators
 2) Redirection Operator
-Control operator :- Newline,|,||,&&,&,;,;;,:&,::&,|&,(,)
-Redirection operator :- <,>,>>,<<,<&,>|,<<-,<>,>&
+   
+  Control operator :- Newline,|,||,&&,&,;,;;,:&,::&,|&,(,)
+   
+  Redirection operator :- <,>,>>,<<,<&,>|,<<-,<>,>&
