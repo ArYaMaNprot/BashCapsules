@@ -32,7 +32,9 @@ echo abc; echo 123
 ---
 #### First thing expansions in earlier stages are perfomed first
 #### Second thing the expansions that are in same stages are given same priority and are simply performed in the order they found on the command line.
-echo $name -parameter expansion
-(1+3) brace expansion
-[1,10] arithmatic expansion
+    echo $name -parameter expansion
+    
+    (1+3) brace expansion
+
+    [1,10] arithmatic expansion
 
