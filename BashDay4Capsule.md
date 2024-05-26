@@ -10,6 +10,7 @@
  >
 space ,tab, and newLine
 shell takes the rough idea of token by finding unquoted metacharacters.
+
 Tokens further divided into two characters:
 Word - those tokens are defined as words that does not contain unquoted metacharacters.
 Operators -those tokens are defined as operators that contaains at least one unquoted metacharacters.
